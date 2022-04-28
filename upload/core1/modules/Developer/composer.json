@@ -1,0 +1,30 @@
+{
+    "name": "opencorero/developer",
+    "description": "Developer module",
+    "authors": [
+        {
+            "name": "DaRock",
+            "email": "support@opencore.ro"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Developer\\Providers\\DeveloperServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Developer\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
