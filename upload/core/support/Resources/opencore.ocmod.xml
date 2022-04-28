@@ -14,7 +14,7 @@
 //require_once realpath(DIR_SYSTEM . '/../') . '/core/vendor/autoload.php';
 require_once realpath(DIR_SYSTEM . '/../') . '/core/support/Opencart/OcCore.php';
 
-use OpenCore\Support\OpenCart\OcCore;
+use core\Support\OpenCart\OcCore;
 ]]></add>
 		</operation>
 		<operation>
@@ -31,7 +31,7 @@ use OpenCore\Support\OpenCart\OcCore;
 			<search><![CDATA[class ControllerStartupSeoUrl]]></search>
 			<add position="before"><![CDATA[
 /* OpenCore Module */
-use OpenCore\Support\OpenCart\OcCore;
+use core\Support\OpenCart\OcCore;
 ]]></add>
 		</operation>
 		<operation>
@@ -57,7 +57,7 @@ use OpenCore\Support\OpenCart\OcCore;
 			<search><![CDATA[class ControllerCommonSeoMegaPackProUrl]]></search>
 			<add position="before"><![CDATA[
 /* OpenCore Module */
-use OpenCore\Support\OpenCart\OcCore;
+use core\Support\OpenCart\OcCore;
 ]]></add>
 		</operation>
 		<operation>
